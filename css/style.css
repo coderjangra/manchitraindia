@@ -872,24 +872,16 @@ ul {
 
 @media (max-width: 768px) {
     .topbar {
-        padding: 0.3rem 0;
-        font-size: 0.8rem;
+        display: none !important;
     }
-    .topbar .container {
-        justify-content: center;
-        gap: 0.5rem;
-    }
-    .topbar-contact span {
-        display: none; /* Hide long address on phone screen */
-    }
-    .topbar > .container > div:last-child {
-        display: none; /* Hide secondary rating badge on phone screen to save vertical space */
+    body, html {
+        overflow-x: hidden;
     }
     .nav-container {
         height: 60px; /* Sleek compact mobile navbar height */
     }
     .brand-logo img {
-        height: 40px; /* Perfectly scaled compact logo for phones */
+        height: 38px; /* Perfectly scaled compact logo for phones */
     }
     .nav-links {
         display: none;
@@ -914,7 +906,10 @@ ul {
     }
     
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 1.85rem;
+        line-height: 1.25;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
     
     .hero-stats {
