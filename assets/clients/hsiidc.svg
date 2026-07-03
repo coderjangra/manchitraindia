@@ -1,7 +1,0 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'>
-        <polygon points='50,15 85,35 85,75 50,90 15,75 15,35' fill='#047857'/>
-        <polyline points='30,60 50,35 70,60' fill='none' stroke='#FFFFFF' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/>
-        <line x1='38' y1='52' x2='62' y2='52' stroke='#F59E0B' stroke-width='6'/>
-        <text x='100' y='53' font-family='Arial, sans-serif' font-size='28' font-weight='900' fill='#047857' letter-spacing='1'>HSIIDC</text>
-        <text x='102' y='72' font-family='Arial, sans-serif' font-size='9.5' font-weight='700' fill='#475569'>HARYANA STATE INDUSTRIAL &amp; INFRA DEV. CORP.</text>
-    </svg>

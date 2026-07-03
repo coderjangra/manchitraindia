@@ -57,7 +57,7 @@ function initMobileMenu() {
 function initCostCalculator() {
     const surveyType = document.getElementById('survey-type');
     const areaUnit = document.getElementById('area-unit');
-    const areaInput = document.getElementById('area-input');
+    const areaInput = document.getElementById('area-input') || document.getElementById('plot-size');
     const estimateAmount = document.getElementById('estimate-amount');
     const whatsappBtn = document.getElementById('send-whatsapp-quote');
 
@@ -66,8 +66,12 @@ function initCostCalculator() {
     const rates = {
         boundary: { base: 3500, perAcre: 1500, perSqYd: 3 },
         topographical: { base: 4500, perAcre: 2200, perSqYd: 4.5 },
+        topography: { base: 4500, perAcre: 2200, perSqYd: 4.5 },
         construction: { base: 5500, perAcre: 3000, perSqYd: 6 },
-        dgps: { base: 6500, perAcre: 3500, perSqYd: 7 }
+        dgps: { base: 6500, perAcre: 3500, perSqYd: 7 },
+        agriculture: { base: 4000, perAcre: 1800, perSqYd: 3.5 },
+        infrastructure: { base: 8000, perAcre: 4000, perSqYd: 8 },
+        hydro: { base: 7500, perAcre: 3800, perSqYd: 7.5 }
     };
 
     function calculateQuote() {
