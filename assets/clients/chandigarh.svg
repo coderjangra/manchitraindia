@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'>
+        <rect x='15' y='15' width='70' height='70' rx='35' fill='#0284C7'/>
+        <!-- Open Hand Symbol -->
+        <path d='M45,70 L45,45 Q40,35 35,35 Q32,35 35,42 Q38,50 42,50 L42,30 Q42,22 47,22 Q52,22 48,32 L48,25 Q48,18 53,18 Q58,18 54,28 L54,25 Q54,20 60,20 Q65,20 58,35 L55,70 Z' fill='#FFFFFF'/>
+        <text x='100' y='48' font-family='Arial, sans-serif' font-size='22' font-weight='900' fill='#0284C7' letter-spacing='0.5'>CHANDIGARH</text>
+        <text x='102' y='68' font-family='Arial, sans-serif' font-size='12' font-weight='800' fill='#334155'>ADMINISTRATION</text>
+    </svg>

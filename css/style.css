@@ -398,7 +398,7 @@ ul {
 }
 
 /* Interactive Survey Cost Calculator Widget */
-.calc-card {
+.calc-card, .estimator-card {
     background-color: #FFFFFF;
     border-radius: var(--radius-lg);
     padding: 2.25rem;
@@ -408,19 +408,19 @@ ul {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.calc-header {
+.calc-header, .estimator-header {
     margin-bottom: 1.5rem;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 1rem;
 }
 
-.calc-header h3 {
+.calc-header h3, .estimator-header h3 {
     font-size: 1.5rem;
     color: var(--navy-dark);
     margin-bottom: 0.25rem;
 }
 
-.calc-header p {
+.calc-header p, .estimator-header p {
     font-size: 0.875rem;
     color: var(--text-muted);
 }
@@ -856,31 +856,53 @@ ul {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: #64748B;
     font-size: 0.875rem;
+}
+
+/* Client Showcase Section */
 .client-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.75rem;
     margin-top: 2.5rem;
 }
 
 .client-card {
     background: #FFFFFF;
     border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
-    padding: 1.75rem 1.25rem;
+    border-radius: var(--radius-lg);
+    padding: 2rem 1.5rem;
     text-align: center;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .client-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
     border-color: var(--primary);
+}
+
+.client-logo-box {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    padding: 0.5rem;
+    background: var(--bg-alt);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.client-logo-box img {
+    max-height: 65px;
+    max-width: 90%;
+    object-fit: contain;
 }
 
 .client-badge {

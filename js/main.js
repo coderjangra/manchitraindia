@@ -149,7 +149,7 @@ function animateCount(el, target) {
     const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
-            el.textContent = target.toLocaleString('en-IN') + '+';
+            el.textContent = target.toLocaleString('en-IN');
             clearInterval(timer);
         } else {
             el.textContent = current.toLocaleString('en-IN');
