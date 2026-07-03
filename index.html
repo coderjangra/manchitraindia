@@ -100,7 +100,7 @@
             <div class="hero-content">
                 <div class="hero-tag">🎯 Precision DGPS & Total Station Experts</div>
                 <h1 class="hero-title">A Complete Unit of <span>Land Surveying</span> & Digital Mapping</h1>
-                <p class="hero-subtitle">Equipped with state-of-the-art DGPS receivers, robotic Total Stations, and advanced GIS CAD processing. Serving Panchkula, Chandigarh, infrastructure projects across India, and international missions in Nepal & South Africa with uncompromised accuracy.</p>
+                <p class="hero-subtitle">Equipped with state-of-the-art DGPS receivers, precision Total Stations, and advanced GIS CAD processing under the expert guidance of Ex. Survey of India officers. Serving Panchkula, Chandigarh, infrastructure projects across India, and international missions in Nepal & South Africa.</p>
                 <div class="hero-actions">
                     <a href="services.html" class="btn btn-primary">Explore Our Services</a>
                     <a href="contact.html" class="btn btn-outline" style="color: #FFFFFF; border-color: rgba(255,255,255,0.4);">Schedule Inspection</a>
@@ -108,40 +108,41 @@
                 <div class="hero-stats">
                     <div class="stat-item">
                         <h3><span class="counter-val" data-target="23">0</span>+</h3>
-                        <p>5-Star Reviews</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3><span class="counter-val" data-target="1000">0</span>+</h3>
-                        <p>Acres Surveyed</p>
+                        <p>Years of Geodetic Excellence</p>
                     </div>
                     <div class="stat-item">
                         <h3><span class="counter-val" data-target="100">0</span>%</h3>
-                        <p>DGPS Precision</p>
+                        <p>Certified Boundary Accuracy</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3><span class="counter-val" data-target="500">0</span>+</h3>
+                        <p>National & Global Projects</p>
                     </div>
                 </div>
             </div>
-
-            <!-- Interactive Survey Quote Calculator -->
-            <div class="hero-calculator">
-                <div class="calc-card">
-                    <div class="calc-header">
-                        <h3>Instant Survey Quote Estimator</h3>
-                        <p>Calculate preliminary cost estimates for your plot or project</p>
+            
+            <div class="hero-interactive">
+                <div class="estimator-card">
+                    <div class="estimator-header">
+                        <h3>⚡ Instant Survey Estimator</h3>
+                        <p>Get a real-time budget range estimate</p>
                     </div>
-                    <form id="quote-estimator">
+                    <form id="consultation-form">
                         <div class="form-group">
-                            <label class="form-label" for="survey-type">Select Survey Category</label>
+                            <label class="form-label" for="survey-type">Select Survey Service</label>
                             <select id="survey-type" class="form-select">
                                 <option value="boundary">Boundary Demarcation & Pillar Fixing</option>
-                                <option value="topographical">Topographical & Contour Mapping</option>
-                                <option value="construction">Construction Site & Grid Layout</option>
-                                <option value="dgps">DGPS / RTK High-Precision Survey</option>
+                                <option value="topography">Topographical & Contour Mapping</option>
+                                <option value="construction">Construction Layout & Leveling</option>
+                                <option value="agriculture">Agricultural & Garden Land Division</option>
+                                <option value="infrastructure">Railway Track & Highway Alignment</option>
+                                <option value="hydro">Pond Survey & Hydrography</option>
                             </select>
                         </div>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="form-row">
                             <div class="form-group">
-                                <label class="form-label" for="area-input">Area Size</label>
-                                <input type="number" id="area-input" class="form-input" value="5" min="0.5" step="0.5">
+                                <label class="form-label" for="plot-size">Approx Area</label>
+                                <input type="number" id="plot-size" class="form-input" placeholder="e.g. 500" value="500" min="1">
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="area-unit">Unit</label>
@@ -151,20 +152,66 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="calc-result">
-                            <div class="calc-result-label">
-                                <p>Estimated Budget Range</p>
-                                <h4>Professional Report + CAD</h4>
-                            </div>
-                            <div class="calc-result-value" id="estimate-amount">
-                                <span>₹11,000 - ₹14,500*</span>
-                            </div>
-                        </div>
-                        <button type="button" id="send-whatsapp-quote" class="btn btn-primary" style="width: 100%; background: #25D366; border: none;">
-                            📲 Send Estimate via WhatsApp
-                        </button>
                     </form>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prestigious Clients Section -->
+    <section class="section" style="background: #FFFFFF; border-bottom: 1px solid var(--border-color);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" style="color: var(--primary);">Trusted Authority</span>
+                <h2 class="section-title">Prestigious Government & Industrial Clients</h2>
+                <p class="section-desc">We take immense pride in delivering certified spatial accuracy for major Government of India enterprises, state electricity boards, and infrastructure giants.</p>
+            </div>
+            <div class="client-grid">
+                <div class="client-card">
+                    <span class="client-badge badge-govt">Govt. of India Undertaking</span>
+                    <div class="client-name">WAPCOS Limited</div>
+                    <div class="client-desc">Ministry of Jal Shakti, Government of India</div>
+                </div>
+                <div class="client-card">
+                    <span class="client-badge badge-power">Joint Venture Govt Enterprise</span>
+                    <div class="client-name">SJVN Limited</div>
+                    <div class="client-desc">Satluj Jal Vidyut Nigam (Govt. of India & HP)</div>
+                </div>
+                <div class="client-card">
+                    <span class="client-badge badge-govt">State Electricity Board</span>
+                    <div class="client-name">HPSEB</div>
+                    <div class="client-desc">Himachal Pradesh State Electricity Board</div>
+                </div>
+                <div class="client-card">
+                    <span class="client-badge badge-power">State Infrastructure</span>
+                    <div class="client-name">HSIIDC</div>
+                    <div class="client-desc">Haryana State Industrial & Infrastructure Dev. Corp.</div>
+                </div>
+                <div class="client-card">
+                    <span class="client-badge badge-govt">State Export Board</span>
+                    <div class="client-name">PSIEC</div>
+                    <div class="client-desc">Punjab Small Industries & Export Corporation</div>
+                </div>
+                <div class="client-card">
+                    <span class="client-badge badge-power">Municipal Authority</span>
+                    <div class="client-name">Chandigarh Administration</div>
+                    <div class="client-desc">Department of Engineering & Urban Planning</div>
+                </div>
+                <div class="client-card">
+                    <span class="client-badge badge-infra">Industrial Giant</span>
+                    <div class="client-name">Ambuja Cement</div>
+                    <div class="client-desc">Major Cement & Manufacturing Facilities</div>
+                </div>
+                <div class="client-card">
+                    <span class="client-badge badge-infra">Infrastructure Leader</span>
+                    <div class="client-name">Jaypee Group</div>
+                    <div class="client-desc">Heavy Civil Engineering & Highway Corridors</div>
+                </div>
+            </div>
+            <div style="margin-top: 2.5rem; padding: 1.25rem 2rem; background: var(--bg-alt); border-radius: var(--radius-md); text-align: center; border: 1px solid var(--border-color);">
+                <p style="margin: 0; font-size: 0.95rem; color: var(--navy-dark); font-weight: 600;">
+                    ⭐ <strong style="color: var(--primary);">Official Credentials:</strong> GSTN Registered Enterprise (<code style="background: #FFFFFF; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: 700;">06AJDPK2824J1ZC</code>) & Registered MSME Unit.
+                </p>
             </div>
         </div>
     </section>
@@ -275,13 +322,13 @@
                 </div>
                 <div class="tech-card">
                     <div class="tech-icon">📐</div>
-                    <h3>Robotic Total Stations</h3>
-                    <p>High-precision laser angular and distance measurement instruments for structural and boundary work.</p>
+                    <h3>Total Stations</h3>
+                    <p>High-precision laser angular and distance measurement instruments for structural layout, L-sections, and boundary work.</p>
                 </div>
                 <div class="tech-card">
-                    <div class="tech-icon">🛸</div>
-                    <h3>UAV / Drone Photogrammetry</h3>
-                    <p>High-resolution aerial orthophotography and 3D terrain mesh modeling for rapid site assessment.</p>
+                    <div class="tech-icon">🔭</div>
+                    <h3>Auto Levels & Digital Levels</h3>
+                    <p>High-precision optical and electronic leveling instruments for precise height clearance NOC and cross-sections.</p>
                 </div>
                 <div class="tech-card">
                     <div class="tech-icon">🖥️</div>
@@ -360,6 +407,10 @@
                     <img src="assets/logo_small.png" alt="Manchitra Footer Logo">
                     <p>A Complete Unit of Land Surveying & Digital Mapping. Committed to precision, speed, and uncompromising spatial engineering standards.</p>
                     <div style="color: var(--accent-gold); font-weight: 600;">Panchkula | Chandigarh | Nationwide</div>
+                    <div style="margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.85rem; line-height: 1.5;">
+                        <span style="color: var(--accent-gold); font-weight: 700;">GSTN:</span> <code style="color: #FFFFFF; font-family: monospace;">06AJDPK2824J1ZC</code><br>
+                        <span style="color: #38BDF8; font-weight: 600;">✓ MSME Registered Unit</span>
+                    </div>
                 </div>
                 <div>
                     <h3 class="footer-heading">Quick Links</h3>

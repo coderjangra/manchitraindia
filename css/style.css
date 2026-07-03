@@ -856,6 +856,69 @@ ul {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: #64748B;
     font-size: 0.875rem;
+.client-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.client-card {
+    background: #FFFFFF;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.75rem 1.25rem;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary);
+}
+
+.client-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.25rem 0.7rem;
+    border-radius: 50px;
+    margin-bottom: 0.75rem;
+}
+
+.badge-govt {
+    background: rgba(11, 19, 31, 0.08);
+    color: var(--navy-dark);
+}
+
+.badge-power {
+    background: rgba(184, 29, 36, 0.08);
+    color: var(--primary);
+}
+
+.badge-infra {
+    background: rgba(224, 169, 109, 0.25);
+    color: #8C5720;
+}
+
+.client-name {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--navy-dark);
+    margin-bottom: 0.25rem;
+}
+
+.client-desc {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.4;
 }
 
 /* Responsive Breakpoints */
