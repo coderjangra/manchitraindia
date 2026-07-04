@@ -251,9 +251,17 @@ ul {
 }
 
 .brand-logo img {
-    height: 55px;
+    height: 52px;
     width: auto;
     transition: var(--transition);
+}
+
+.logo-small {
+    display: block !important;
+}
+
+.logo-big {
+    display: block !important;
 }
 
 .brand-logo:hover img {
@@ -969,8 +977,12 @@ ul {
     .nav-container {
         height: 60px; /* Sleek compact mobile navbar height */
     }
-    .brand-logo img {
-        height: 38px; /* Perfectly scaled compact logo for phones */
+    .logo-big {
+        display: none !important;
+    }
+    .logo-small {
+        display: block !important;
+        height: 44px !important;
     }
     .nav-links {
         display: none;
